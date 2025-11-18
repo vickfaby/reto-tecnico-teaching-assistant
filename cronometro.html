@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RETO TÉCNICO - Cronómetro</title>
+    <!--
+      Archivo: cronometro.html
+      Descripción:
+        Página principal del reto técnico. Renderiza la estructura del cronómetro
+        y referencia los archivos de estilos (cronometro.css) y lógica
+        (cronometro.js).
+    -->
+    <link rel="stylesheet" href="./cronometro.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="page-header">
+        <h1 class="page-title">RETO TÉCNICO</h1>
+      </header>
+      <section class="stopwatch-card" aria-label="Cronómetro tipo stopwatch">
+        <header class="stopwatch-header">
+          <h2 class="stopwatch-title">Cronómetro</h2>
+          <p class="stopwatch-subtitle">
+            Inicia, pausa, continúa y limpia el tiempo medido con precisión de milisegundos.
+          </p>
+        </header>
+
+        <div class="display" aria-live="polite" aria-atomic="true">
+          <span id="hours" class="time-block">00</span>
+          <span class="time-separator">:</span>
+          <span id="minutes" class="time-block">00</span>
+          <span class="time-separator">:</span>
+          <span id="seconds" class="time-block">00</span>
+          <span class="time-milliseconds" id="milliseconds">000</span>
+        </div>
+
+        <div class="controls">
+          <button
+            id="primaryButton"
+            class="btn btn-primary"
+            type="button"
+          >
+            INICIAR
+          </button>
+
+          <button
+            id="clearButton"
+            class="btn btn-secondary"
+            type="button"
+            disabled
+          >
+            LIMPIAR
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script src="./cronometro.js"></script>
+  </body>
+</html>
+
+
