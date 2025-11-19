@@ -54,6 +54,11 @@ reto-tecnico-teaching-assistant/
 - La actualización visual se realiza mediante `requestAnimationFrame` para una animación fluida
 - Los milisegundos se muestran con 3 dígitos (000-999) para mantener un ancho fijo del contenedor
 
+## 📎 Archivos adicionales
+
+- **`cursor_crear_cron_metro_en_p_gina_web.md`**: contiene el historial completo del chat exportado desde Cursor, incluyendo todos los prompts, respuestas y fragmentos de código generados durante el desarrollo del reto.
+- **`IA-USO.md`**: documenta el uso de la IA en este proyecto, detallando el modelo utilizado, los prompts más relevantes y una reflexión sobre el flujo de trabajo asistido por IA.
+
 ---
 
 **Desarrollado como parte de un reto técnico**
